@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4943031502658576775}
   - component: {fileID: 8365907699625061222}
-  - component: {fileID: 9126552855204006588}
+  - component: {fileID: 4720148956767982628}
   m_Layer: 0
   m_Name: Inimigo
   m_TagString: Untagged
@@ -91,7 +91,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9126552855204006588
+--- !u!114 &4720148956767982628
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,10 +100,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 9203899396476077251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdb0540676a06ee4f96490a7181e2142, type: 3}
+  m_Script: {fileID: 11500000, guid: b6942a2cc837c944ea325a9dd8094fc6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyBehaviour
-  vida: 0
-  defesaAtual: 0
-  ataqueAtual: 0
-  proximaAcao: 0
+  m_EditorClassIdentifier: Assembly-CSharp::InimigoView
+  dados: {fileID: 0}
+  textoVida: {fileID: 0}
+  imagemRetrato: {fileID: 0}
